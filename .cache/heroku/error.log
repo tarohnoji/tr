@@ -1,0 +1,6 @@
+2021/02/10 00:39:43 Error: Expected response to be successful, got 422
+    at Request.handleFailure [as _handleFailure] (/usr/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021/02/10 00:39:43 {"id":"invalid_params","message":"Name must start with a letter, end with a letter or digit and can only contain lowercase letters, digits, and dashes."}
