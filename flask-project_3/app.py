@@ -51,14 +51,14 @@ def update():
     name   = request.form['name']
     age    = request.form['age']
     sex    = request.form['sex']
-
+    
     #データを更新してJSONファイルを上書き
     prof_dict_before = get_profile()
     prof_dict_after = []
 
     for data in prof_dict_before:
         if str(data['id']) == id_str:
-            prof_dict_after.append({"id":int(id_str), "name":name, "age":age, "sex":sex})
+            prof_dict_after.append({"id":int(id_str), "name":name, "age":name, "sex":name})
         else:
             prof_dict_after.append(data)
     

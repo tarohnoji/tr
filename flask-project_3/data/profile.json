@@ -1,5 +1,1 @@
-[
-{"id": 1, "name": "Suzuki", "age": "23", "sex": "male"},
-{"id": 2, "name": "Satou", "age": "25", "sex": "female"},
-{"id": 3, "name": "Takahashi", "age": "30", "sex": "male"}
-]
+[{"id": 1, "name": "Suzuki", "age": "23", "sex": "male"}, {"id": 2, "name": "\u30b8\u30e7\u30f3\u30bd\u30f3", "age": "\u30b8\u30e7\u30f3\u30bd\u30f3", "sex": "\u30b8\u30e7\u30f3\u30bd\u30f3"}, {"id": 3, "name": "Takahashi", "age": "30", "sex": "male"}]
